@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import { CommercialAuth } from "@/components/layout/commercial-auth";
+import { CommercialAuth } from "@/components/layout/commercial-auth";
 import { GitHubLink } from "@/components/layout/github-link";
 import { VersionReleaseModal } from "@/components/layout/version-release-modal";
 import { DOCS_URL } from "@/constant/env";
@@ -139,11 +140,11 @@ export function UserStatusActions({
         )}
       />
 
-      <VersionReleaseModal style={versionStyle} />
+     <VersionReleaseModal style={versionStyle} />
 
-      <CommercialAuth />
+<CommercialAuth />
 
-      <GitHubLink
+<GitHubLink
         className={cn(
           "bg-transparent hover:bg-transparent dark:hover:bg-transparent",
           gitHubClassName,
